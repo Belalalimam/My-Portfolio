@@ -1,0 +1,75 @@
+/* 
+=========================
+table of contant 
+=========================
+1. left section
+2. right  section
+*/
+
+/* ========================
+    1. left section
+=========================== */
+
+
+section.hero{
+    margin-top: 3rem;
+}
+section.hero .parent-avatar.flex{
+    align-items: end;
+    gap: 0.6rem;
+}
+section.hero .left-section{
+    flex-grow: 1;
+}
+
+section.hero .avatar{
+    width: 110px;
+    border-radius: 50%;
+    border: 1px solid darkorange;
+    padding: 1px;
+    box-shadow: 2px 2px 40px rgba(202, 202, 202, 0.531) inset;
+
+}
+section.hero .icon-verified{
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+section.hero h1.title{
+    font-size: 2.85rem;
+    line-height: 3.3rem;
+    margin: 24px 0;
+    color: var(--title);
+}
+section.hero p.sub-title{
+    color: var(--subtitle);
+    font-size: .9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+
+}
+
+section.hero .all-icons{
+    font-size: 1.3rem;
+    gap: 1.5rem;
+    color: var(--subtitle);
+}
+section.hero .all-icons .icon:hover{
+    font-size: 1.4rem;
+    transition: .3s;
+    color: var(--icon-hover);
+    cursor: pointer;
+}
+
+
+
+/* ========================
+    1. right section
+=========================== */
+
+section.hero .animation{
+    width: 100%;
+    translate: 100px 55px;
+}
+
+
