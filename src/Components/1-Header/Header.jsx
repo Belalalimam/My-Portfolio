@@ -35,16 +35,16 @@ export default function Header() {
       <nav>
         <ul className="flex">
           <li>
-            <a href="">About</a>
+            <a>About</a>
           </li>
           <li>
-            <a href="">Articles</a>
+            <a>Articles</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a>Projects</a>
           </li>
           <li>
-            <a href="">Speaking</a>
+            <a>Speaking</a>
           </li>
           <li>
             <a href="">Contact</a>
@@ -82,7 +82,7 @@ export default function Header() {
               <a href="">Speaking</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a>Contact</a>
             </li>
           </ul>
         </div>

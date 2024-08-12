@@ -3,7 +3,7 @@ import "./Menu.css";
 
 import { MyProjects } from "./MyProject";
 import { AnimatePresence, transform } from "framer-motion";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Menu() {
   const [arr, setArr] = useState(MyProjects);
@@ -64,6 +64,14 @@ export default function Menu() {
         </button>
         <button
           onClick={() => {
+            handelFiltter("API");
+          }}
+          className={isActive === "API" ? "active" : ""}
+        >
+          APIs
+        </button>
+        <button
+          onClick={() => {
             handelFiltter("node");
           }}
           className={isActive === "Node & Exprees" ? "active" : ""}
@@ -80,7 +88,7 @@ export default function Menu() {
                 layout
                 initial={{ transform: "scale(0)" }}
                 animate={{ transform: "scale(1)" }}
-                transition={{type: "spring" , damping:"8" , stiffness: 50}}
+                transition={{ type: "spring", damping: "8", stiffness: 50 }}
                 key={item.imgPath}
                 className="  card"
               >
@@ -88,11 +96,6 @@ export default function Menu() {
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projsctTitle}</h1>
-                  <p className="subtitle">
-                    Lorem ipsum dolor sit amet consectetur elit adipisicing . Ex
-                    tempore dolor in, accusantium laudantium accusamus.
-                  </p>
-
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
                       <a href={item.liveDemo} className="icon-link"></a>
