@@ -38,7 +38,7 @@ export const MyProjects = [
       projectTitle: "Shutter Fly",
       category: ["react"],
       imgPath: "./images/Shutter fly.png",
-      githubLink: "https://66b94db96801eededc44e20c--unrivaled-cactus-b28367.netlify.app/",
-      liveDemo: "https://github.com/Belalalimam/Shutter-Fly"
+      githubLink: "https://github.com/Belalalimam/Shutter-Fly",
+      liveDemo: "https://shutterfly.surge.sh"
     }
   ];
