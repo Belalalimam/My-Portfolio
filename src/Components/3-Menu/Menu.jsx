@@ -84,6 +84,7 @@ export default function Menu() {
         <AnimatePresence>
           {arr.map((item) => {
             return (
+            <a href={item.liveDemo}>
               <motion.article
                 layout
                 initial={{ transform: "scale(0)" }}
@@ -112,6 +113,7 @@ export default function Menu() {
                   </div>
                 </div>
               </motion.article>
+            </a>
             );
           })}
         </AnimatePresence>

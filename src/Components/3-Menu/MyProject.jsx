@@ -25,7 +25,7 @@ export const MyProjects = [
       category: ["css"],
       imgPath: "./images/Time Zone.png",
       githubLink: "https://github.com/Belalalimam/Time-Zone",
-      liveDemo: "https://my-first-project-locb.vercel.app/"
+      liveDemo: "https://Time-Zone-pro.vercel.app/"
     },
     {
       projectTitle: "The-Gate-Of-Quran",
@@ -39,6 +39,6 @@ export const MyProjects = [
       category: ["react"],
       imgPath: "./images/Shutter fly.png",
       githubLink: "https://github.com/Belalalimam/Shutter-Fly",
-      liveDemo: "https://shutterfly.surge.sh"
+      liveDemo: "https://shutterfly-alu.com"
     }
   ];

@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
-    "framer-motion": "^11.2.11",
+    "@lottiefiles/lottie-player": "^2.0.4",
+    "framer-motion": "^11.11.0",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "surge": "^0.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
