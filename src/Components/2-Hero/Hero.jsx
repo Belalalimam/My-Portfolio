@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="hero flex">
       <div className="left-section ">
         <div className="parent-avatar flex">
-          <img src="./images/Belal-Pic.jpg" className="avatar" alt="" />
+          <img src="./images/Belal.jpg" className="avatar" alt="" />
           <div className="icon-verified" />
         </div>
         <h1 className="title">

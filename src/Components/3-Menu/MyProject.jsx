@@ -6,13 +6,13 @@ export const MyProjects = [
       githubLink: "https://github.com/Belalalimam/Rosebut",
       liveDemo: "https://rosebut.vercel.app/"
     },
-    // {
-    //   projectTitle: "Royal Tex",
-    //   category: ["css" , "js"],
-    //   imgPath: "./images/Royal.png",
-    //   githubLink: "https://github.com/Belalalimam/ROYAL-TEX",
-    //   liveDemo: "https://royal-secon.vercel.app/"
-    // },
+    {
+      projectTitle: "Royal Tex",
+      category: ["css" , "js"],
+      imgPath: "./images/Royal.png",
+      githubLink: "https://github.com/Belalalimam/ROYAL-TEX-2",
+      liveDemo: "https://royal-tex.shutterfly-alu.com/"
+    },
     {
       projectTitle: "The-Holy-Quran",
       category: ["css", "js"],
@@ -32,7 +32,7 @@ export const MyProjects = [
       category: ["react" , "API"],
       imgPath: "./images/The gate of quran.png",
       githubLink: "https://github.com/Belalalimam/The-Gate-Of-Quran",
-      liveDemo: "https://cheerful-longma-9a2c48.netlify.app/"
+      liveDemo: "https://the-gate-of-quran.netlify.app"
     },
     {
       projectTitle: "Shutter Fly",
